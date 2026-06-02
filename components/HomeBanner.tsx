@@ -1,7 +1,5 @@
-import Image from "next/image";
-import Header from "./Header";
-import Navbar from "./Navbar";
 import bgBanner from "@/public/home-banner-3.webp";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function HomeBanner() {
@@ -14,7 +12,7 @@ export default function HomeBanner() {
           </p>
           <Link
             href={"/"}
-            className="flex h-12 flex-col items-center justify-center border-2 border-primary-accent-500 p-4 font-decorative font-semibold transition-colors duration-150 ease-in hover:bg-primary-green-800 hover:text-primary-accent-300"
+            className="flex h-12 flex-col items-center justify-center border-2 border-primary-accent-500 p-4 font-decorative font-semibold transition-colors duration-150 ease-in hover:bg-primary-green-700 hover:text-primary-accent-300"
           >
             Explore Cabins
           </Link>
