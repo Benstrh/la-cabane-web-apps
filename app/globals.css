@@ -1,8 +1,38 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
+} */
+
+@theme {
+  --color-primary-base: #f6f3eb;
+  --color-primary-green-base: #5b7e3c;
+  --color-primary-accent-base: #c9caac;
+
+  --color-primary-green-50: #adbe9d;
+  --color-primary-green-100: #9cb18a;
+  --color-primary-green-200: #8ca476;
+  --color-primary-green-300: #7b9762;
+  --color-primary-green-500: #6b8a4f;
+  --color-primary-green-600: #5b7e3c;
+  --color-primary-green-700: #517136;
+  --color-primary-green-800: #486430;
+  --color-primary-green-900: #3f582a;
+  --color-primary-green-950: #364b24;
+  --color-primary-green-black: #2d3f1e;
+
+  --color-primary-accent-50: #e4e4d5;
+  --color-primary-accent-100: #dedfcd;
+  --color-primary-accent-200: #d9d9c4;
+  --color-primary-accent-300: #d3d4bc;
+  --color-primary-accent-500: #cecfb4;
+  --color-primary-accent-600: #c9caac;
+  --color-primary-accent-700: #b4b59a;
+  --color-primary-accent-800: #a0a189;
+  --color-primary-accent-900: #8c8d78;
+  --color-primary-accent-950: #787967;
+  --color-primary-accent-black: #646556;
 }
 
 @theme inline {
@@ -10,17 +40,19 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-decorative: var(--font-aboreto);
+  --font-caption-decorative: var(--font-noto-serif-display);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #f6f3eb;
     --foreground: #ededed;
   }
-}
+} */
 
-body {
+/* body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
