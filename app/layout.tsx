@@ -2,6 +2,10 @@ import { aboreto, geistMono, geistSans, notoSerifDisplay } from "@/fonts";
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   title: {
@@ -19,7 +23,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${aboreto.variable} ${notoSerifDisplay.variable} h-full font-sans antialiased`}
+      className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, aboreto.variable, notoSerifDisplay.variable, "font-sans", geist.variable)}
     >
       <body className="flex min-h-full flex-col bg-primary-base">
         <div className="sticky top-0 z-20">

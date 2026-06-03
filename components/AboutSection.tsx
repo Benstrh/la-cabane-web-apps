@@ -5,8 +5,8 @@ export default function AboutSection() {
         <div className="space-y-4 p-0 sm:col-span-2 sm:col-start-2">
           <div>
             <h1 className="mb-5 text-lg sm:text-2xl">ABOUT US</h1>
-            <p className="font-caption-decorative text-[50px] leading-12 font-bold sm:mb-8 sm:text-[75px] sm:leading-none sm:tracking-wide lg:text-[7rem]">
-              L'Échappée Belle
+            <p className="font-caption-decorative text-[50px] leading-12 font-bold text-primary-brown-base sm:mb-8 sm:text-[75px] sm:leading-none sm:tracking-wide lg:text-[7rem]">
+              L&apos;Échappée Belle
             </p>
           </div>
 
@@ -21,7 +21,7 @@ export default function AboutSection() {
               At La Cabane, every detail is meticulously curated. We blend
               intimate, thoughtful architecture with the magical essence of
               French art de vivre. We invite you to slow down, embrace the
-              stillness, and celebrate life’s finest moments wrapped in
+              stillness, and celebrate life&apos;s finest moments wrapped in
               five-star comfort.
             </p>
             <p className="mt-5 justify-self-end font-semibold sm:mt-10">
