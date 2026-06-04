@@ -21,8 +21,8 @@ export default function CabinCarrousel() {
           <CabinCard key={i} index={i} />
         ))}
       </CarouselContent>
-      <CarouselPrevious className="cursor-pointer rounded-none border border-primary-accent-800 hover:bg-primary-accent-200" />
-      <CarouselNext className="cursor-pointer rounded-none border border-primary-accent-800 hover:bg-primary-accent-200" />
+      <CarouselPrevious className="hidden cursor-pointer rounded-none border border-primary-accent-800 hover:bg-primary-accent-200 lg:flex" />
+      <CarouselNext className="hidden cursor-pointer rounded-none border border-primary-accent-800 hover:bg-primary-accent-200 lg:flex" />
     </Carousel>
   );
 }
