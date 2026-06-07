@@ -9,6 +9,7 @@ export default function Home() {
       <HomeBanner />
       <AboutSection />
       <HomeCarousel />
+      <div className="flex min-h-screen flex-col">FOOTER</div>
     </div>
   );
 }

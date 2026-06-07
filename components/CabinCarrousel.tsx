@@ -1,5 +1,5 @@
 "use client";
-import { CabinCardProps } from "@/type";
+import { CabinCardProps } from "@/types/cabin";
 import CabinCard from "./CabinCard";
 import {
   Carousel,
