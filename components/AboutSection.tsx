@@ -1,10 +1,10 @@
 export default function AboutSection() {
   return (
-    <div className="relative flex h-auto flex-col items-center overflow-hidden px-4 py-8 sm:px-8 sm:pt-8 md:justify-center lg:min-h-svh lg:justify-center">
+    <div className="relative flex h-auto flex-col items-center overflow-hidden px-4 sm:px-8 sm:pt-8 md:justify-center lg:min-h-svh lg:justify-center">
       <div className="about-section relative flex w-full flex-col font-decorative md:items-center md:justify-center md:text-center lg:grid lg:grid-cols-3 lg:text-left">
+        <div className="relative h-svh bg-blue-200">IMAGE</div>
         <div className="space-y-4 p-0 lg:col-span-2 lg:col-start-2">
           <div>
-            <h1 className="mb-5 text-lg sm:text-2xl">ABOUT US</h1>
             <p className="font-caption-decorative text-[50px] leading-12 font-bold text-primary-brown-base sm:mb-8 sm:text-[75px] sm:leading-none sm:tracking-wide lg:text-[7rem]">
               L&apos;Échappée Belle
             </p>
